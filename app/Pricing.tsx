@@ -7,7 +7,7 @@ export default function Pricing() {
     <Box
     borderRadius={'15px'}
     overflow={'hidden'}
-    boxShadow={'dark-lg'}
+   
       display={"flex"}
       mx={'auto'}
       mt={'-135px'}
@@ -17,7 +17,7 @@ export default function Pricing() {
       maxW={'800px'}
     >
       {/* Price box*/ }
-      <Box bgColor={"#ad9ec9"} p={'60px'} textAlign={'center'} >
+      <Box bgColor={"#ad9ec9"} p={'60px'} textAlign={'center'} maxW={'300px'}>
         <Text fontWeight={"bold"} fontSize={"24px"}>
           Premium PRO
         </Text>
@@ -30,7 +30,7 @@ export default function Pricing() {
         </Button>
       </Box>
       {/* FeATURE box*/ }
-      <Box bgColor={"White"} pt={"50px"} pl={"25px"} >
+      <Box bgColor={"White"} pt={"50px"} pl={"25px"} maxW={'700px'} >
         <Text>Access these features when you buy this pricing package</Text>
       <HStack p={'5px'} pt={'20px'}>
       <Icon as ={check}></Icon>
