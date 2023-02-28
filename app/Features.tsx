@@ -7,6 +7,7 @@ import icon3 from './icons/icon3'
 export default function Features() {
   return (
     <Box display={'flex'}
+    flexDirection={{base:'column',md:'column', lg:'row'}}
     maxW='700px'
     m={'auto'}
     mt={'30px'}
