@@ -92,6 +92,7 @@
 'use client'
 import { ChakraProvider, Heading } from '@chakra-ui/react'
 import React from 'react'
+import Features from './Features'
 import Header from './Header'
 import Pricing from './Pricing'
 
@@ -101,6 +102,7 @@ export default function page() {
       <ChakraProvider>
         <Header></Header>
         <Pricing></Pricing>
+        <Features></Features>
       
       </ChakraProvider>
       
