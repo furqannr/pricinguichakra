@@ -8,7 +8,7 @@ export default function Pricing() {
       bgColor={"Black"}
       display={"flex"}
       mx={'auto'}
-      mt={'-75px'}
+      mt={'-135px'}
       justifyContent={"center"}
       alignContent={"center"}
       height={"270px"}
@@ -19,7 +19,7 @@ export default function Pricing() {
         <Text fontWeight={"bold"} fontSize={"24px"}>
           Premium PRO
         </Text>
-        <Heading fontWeight={"extrabold"} fontSize="60px">
+        <Heading fontWeight={"bold"} fontSize="60px">
           $329
         </Heading>
         <Text m='10px'>Billed just once</Text>
